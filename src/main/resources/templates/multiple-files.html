@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form method="post" action="/test" enctype="multipart/form-data">
+    <input type="file" name="files" /> <!-- this will be multipartFiles[0] -->
+    <input type="file" name="files" /> <!-- this will be multipartFiles[1] -->
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>
